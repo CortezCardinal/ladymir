@@ -1,0 +1,122 @@
+.content 
+{
+    margin-top: 85px;
+}
+.content__cards-img
+{
+	height: 246px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #1aa5a0;
+}
+.content__cards-item
+{
+	max-width: 320px;
+}
+.content__cards
+{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap:70px;
+}
+.content__card
+{
+	display: block;
+    border: 1px solid #1aa5a0;
+    background-color: #e8f6f6;
+    border-radius: 10px;
+    padding: 1px;
+    transition: all .3s;
+    margin: 0 auto;
+    transition: box-shadow 0.3s;
+}
+.content__card:hover
+{
+	box-shadow: 0px 1px 25px rgba(51, 51, 51,0.5);
+}
+
+.content__card-title
+{
+	margin-bottom: 0;
+    background: #e8f6f6;
+    color: #2a2a2a;
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 9px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: normal;
+    border: 1px solid #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.main-pagination__items
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main-pagination
+{
+	padding:30px 0;
+}
+.main-pagination__item
+{
+	display: inline-block;
+    list-style: none;
+    border: 1px solid #14a7a2;
+    margin-right: 5px;
+    padding: 1px;
+    border-radius: 10px;
+}
+.pagination-num
+{
+	height: 34px;
+    min-width: 34px;
+    padding: 9px 10px;
+    text-align: center;
+    background: #14a7a2;
+    color: #fff;
+    border-radius: 8px;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    transition: background 0.3s, color 0.3s;
+}
+
+.pagination-num--active
+{
+	background-color: #e8f6f6;
+	color: #333;
+}
+.pagination-num:hover
+{
+	background-color: #e8f6f6;
+	color: #333;
+}
+footer
+{
+	background: #e8f6f6;
+	color: #464646;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+.footer__items
+{
+	padding-top: 20px;
+	display: flex;
+	gap:20px;
+	align-items: center;
+}
+.footer__text-link
+{
+	color: #14a7a2;
+}

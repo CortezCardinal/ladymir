@@ -1,0 +1,32 @@
+@media (max-width: 1140px) 
+{
+	.content__cards
+	{
+		justify-content: center;
+	}
+}
+@media (max-width: 760px) 
+{
+	.acticle-items
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+@media (max-width: 680px) 
+{
+	.content__cards
+	{
+		justify-content: center;
+	}
+	.footer__items
+	{
+		flex-direction: column;
+		align-items: flex-start;
+		gap:10px;
+	}
+	.youtube-video
+	{
+		width: 100%;
+	}
+}
